@@ -1,1 +1,18 @@
+# Environment variables and secrets
+.env
+.env.*
 
+# Allow the example template
+!.env.example
+
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
