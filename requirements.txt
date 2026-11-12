@@ -1,0 +1,8 @@
+pdfplumber
+beautifulsoup4
+datasketch
+pydantic>=2
+pyyaml
+python-dotenv
+wandb
+dvc
