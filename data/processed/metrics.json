@@ -1,0 +1,20 @@
+{
+  "chunks": 32,
+  "chunks_duplicate": 0,
+  "chunks_per_split": {
+    "test": 4,
+    "train": 24,
+    "val": 4
+  },
+  "docs_per_split": {
+    "test": 1,
+    "train": 6,
+    "val": 1
+  },
+  "documents_duplicate": 2,
+  "documents_kept": 8,
+  "documents_parsed": 10,
+  "documents_rejected": 2,
+  "files_found": 12,
+  "mean_chunk_words": 147.0
+}

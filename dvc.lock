@@ -1,0 +1,44 @@
+schema: '2.0'
+stages:
+  ingest:
+    cmd: python scripts/ingest_corpus.py
+    deps:
+    - path: configs/ingestion.yaml
+      hash: md5
+      md5: 3749e2a46080206e0002fcd6a0511ea4
+      size: 351
+    - path: configs/sources.yaml
+      hash: md5
+      md5: 85d0599d42f953cb4d82fa6b2f089882
+      size: 1758
+    - path: data/raw
+      hash: md5
+      md5: ef597c5e65ef1deb9fccdfdd73b05fa8.dir
+      size: 52721
+      nfiles: 13
+    - path: ingestion
+      hash: md5
+      md5: 5bc5e4d2eac54f91407b5e613a30baca.dir
+      size: 48344
+      nfiles: 22
+    - path: scripts/ingest_corpus.py
+      hash: md5
+      md5: 430a1bc964d8cb6cd4ec0c136b8076d3
+      size: 992
+    outs:
+    - path: data/processed/chunks.jsonl
+      hash: md5
+      md5: 0728181b66666c39964219e0835050bb
+      size: 43378
+    - path: data/processed/documents.jsonl
+      hash: md5
+      md5: 1be3ad9d8b9e7f2dfee1507a1f51d598
+      size: 37972
+    - path: data/processed/metrics.json
+      hash: md5
+      md5: 292f0624c0fc5f8b5e6bd9b63ec13f8e
+      size: 342
+    - path: data/processed/rejected.json
+      hash: md5
+      md5: 32c77cee8367badba72c32685aec7eec
+      size: 518

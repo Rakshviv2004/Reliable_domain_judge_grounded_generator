@@ -1,0 +1,16 @@
+stages:
+  ingest:
+    cmd: python scripts/ingest_corpus.py
+    deps:
+      - scripts/ingest_corpus.py
+      - ingestion
+      - configs/ingestion.yaml
+      - configs/sources.yaml
+      - data/raw
+    outs:
+      - data/processed/documents.jsonl
+      - data/processed/chunks.jsonl
+      - data/processed/rejected.json
+    metrics:
+      - data/processed/metrics.json:
+          cache: false
