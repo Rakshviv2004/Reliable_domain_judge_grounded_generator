@@ -18,8 +18,8 @@ stages:
       nfiles: 13
     - path: ingestion
       hash: md5
-      md5: 0dff3200fd69051e42124ba079529d95.dir
-      size: 80689
+      md5: 2feb4ae62cfbf919bbdac5b9ba6a82e6.dir
+      size: 80709
       nfiles: 31
     - path: scripts/ingest_corpus.py
       hash: md5
