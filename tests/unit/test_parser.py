@@ -53,3 +53,27 @@ def test_normalization_is_idempotent_and_hash_ignores_case_and_spacing() -> None
     raw = "Hello\r\n\r\n\r\n\r\nWorld \u00a0 again"
     assert normalize_text(normalize_text(raw)) == normalize_text(raw)
     assert text_hash("Hello  World") == text_hash("hello world")
+
+
+def test_pdf_numbered_headings_become_sections(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    class FakePage:
+        def extract_text(self) -> str:
+            return "1.1 Scope and purpose\nBody text here."
+
+    class FakePdf:
+        pages = [FakePage()]
+
+        def __enter__(self) -> FakePdf:
+            return self
+
+        def __exit__(self, *args: object) -> bool:
+            return False
+
+    monkeypatch.setattr("ingestion.parser.pdfplumber.open", lambda path: FakePdf())
+    f = tmp_path / "x.pdf"
+    f.write_bytes(b"%PDF-1.4")
+
+    doc = parse_file(f, META)
+
+    assert doc.sections[0].heading == "1.1 Scope and purpose"
+    assert doc.sections[0].text == "Body text here."
