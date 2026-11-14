@@ -1,0 +1,73 @@
+_wandb:
+    value:
+        cli_version: 0.31.0
+        e:
+            01a1d68c-afa4-7821-8f5a-2c2a56aa219c:
+                args:
+                    - --wandb
+                codePath: scripts/ingest_corpus.py
+                codePathLocal: scripts/ingest_corpus.py
+                cpu:
+                    model: AMD EPYC 7763 64-Core Processor
+                cpu_count: 1
+                cpu_count_logical: 2
+                disk:
+                    /:
+                        total: "33636024320"
+                        used: "15635255296"
+                email: raksha.24bce11472@vitbhopal.ac.in
+                executable: /home/codespace/.python/current/bin/python
+                git:
+                    commit: 34af1154b4bb1a28cb541e3969fa4c349fd83bf5
+                    remote: https://github.com/Rakshviv2004/Reliable_domain_judge_grounded_generator
+                host: codespaces-07a3b7
+                memory:
+                    total: "8328056832"
+                os: Linux-6.8.0-1070-azure-x86_64-with-glibc2.39
+                program: /workspaces/Reliable_domain_judge_grounded_generator/scripts/ingest_corpus.py
+                python: CPython 3.14.2
+                root: /workspaces/Reliable_domain_judge_grounded_generator
+                startedAt: "2026-11-13T20:15:06.653930Z"
+                writerId: 01a1d68c-afa4-7821-8f5a-2c2a56aa219c
+        m: []
+        python_version: 3.14.2
+        t:
+            "3":
+                - 2
+                - 15
+                - 16
+            "4": 3.14.2
+            "5": 0.31.0
+            "12": 0.31.0
+            "13": linux-x86_64
+allowed_licenses:
+    value:
+        - public-domain
+        - cc-by-4.0
+        - cc-by-sa-4.0
+        - cc-by-nc-sa-3.0-igo
+        - ogl-uk-3.0
+chunk:
+    value:
+        overlap_words: 40
+        target_words: 250
+dedup:
+    value:
+        near_dup_threshold: 0.85
+        num_perm: 128
+        shingle_size: 5
+git_sha:
+    value: 34af115
+processed_dir:
+    value: data/processed
+raw_dir:
+    value: data/raw
+sources_file:
+    value: configs/sources.yaml
+split:
+    value:
+        gold: 10
+        seed: v1
+        test: 10
+        train: 70
+        val: 10

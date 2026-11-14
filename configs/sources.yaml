@@ -1,0 +1,56 @@
+sources:
+- file: sample/hypertension.txt
+  title: hypertension.txt
+  source: Synthetic Sample
+  url: https://example.org/hypertension.txt
+  license: public-domain
+- file: sample/type_2_diabetes.txt
+  title: type_2_diabetes.txt
+  source: Synthetic Sample
+  url: https://example.org/type_2_diabetes.txt
+  license: public-domain
+- file: sample/asthma.txt
+  title: asthma.txt
+  source: Synthetic Sample
+  url: https://example.org/asthma.txt
+  license: public-domain
+- file: sample/kidney_disease.txt
+  title: kidney_disease.txt
+  source: Synthetic Sample
+  url: https://example.org/kidney_disease.txt
+  license: public-domain
+- file: sample/heart_failure.txt
+  title: heart_failure.txt
+  source: Synthetic Sample
+  url: https://example.org/heart_failure.txt
+  license: public-domain
+- file: sample/hypothyroidism.txt
+  title: hypothyroidism.txt
+  source: Synthetic Sample
+  url: https://example.org/hypothyroidism.txt
+  license: public-domain
+- file: sample/migraine.txt
+  title: migraine.txt
+  source: Synthetic Sample
+  url: https://example.org/migraine.txt
+  license: public-domain
+- file: sample/osteoarthritis.txt
+  title: osteoarthritis.txt
+  source: Synthetic Sample
+  url: https://example.org/osteoarthritis.txt
+  license: public-domain
+- file: sample/hypertension_copy.txt
+  title: hypertension_copy.txt
+  source: Synthetic Sample
+  url: https://example.org/hypertension_copy.txt
+  license: public-domain
+- file: sample/type_2_diabetes_amended.txt
+  title: type_2_diabetes_amended.txt
+  source: Synthetic Sample
+  url: https://example.org/type_2_diabetes_amended.txt
+  license: public-domain
+- file: sample/proprietary_doc.txt
+  title: proprietary_doc.txt
+  source: Synthetic Sample
+  url: https://example.org/proprietary_doc.txt
+  license: proprietary
