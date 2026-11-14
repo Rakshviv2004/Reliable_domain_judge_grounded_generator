@@ -1,0 +1,44 @@
+_wandb:
+    value:
+        cli_version: 0.31.0
+        e:
+            01a1d598-570c-7634-81de-40500728a2a3:
+                codePath: scripts/wandb_smoke.py
+                codePathLocal: scripts/wandb_smoke.py
+                cpu:
+                    model: AMD EPYC 7763 64-Core Processor
+                cpu_count: 1
+                cpu_count_logical: 2
+                disk:
+                    /:
+                        total: "33636024320"
+                        used: "14043045888"
+                email: raksha.24bce11472@vitbhopal.ac.in
+                executable: /workspaces/Reliable_domain_judge_grounded_generator/.venv/bin/python
+                git:
+                    commit: 48761526ff4209d6da28f185fa2effa097e712cb
+                    remote: https://github.com/Rakshviv2004/Reliable_domain_judge_grounded_generator
+                host: codespaces-07a3b7
+                memory:
+                    total: "8328060928"
+                os: Linux-6.8.0-1070-azure-x86_64-with-glibc2.39
+                program: /workspaces/Reliable_domain_judge_grounded_generator/scripts/wandb_smoke.py
+                python: CPython 3.11.18
+                root: /workspaces/Reliable_domain_judge_grounded_generator
+                startedAt: "2026-11-13T15:48:13.186723Z"
+                writerId: 01a1d598-570c-7634-81de-40500728a2a3
+        m: []
+        python_version: 3.11.18
+        t:
+            "3":
+                - 2
+                - 15
+                - 16
+            "4": 3.11.18
+            "5": 0.31.0
+            "12": 0.31.0
+            "13": linux-x86_64
+git_sha:
+    value: "4876152"
+purpose:
+    value: phase0

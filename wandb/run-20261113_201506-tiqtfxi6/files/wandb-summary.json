@@ -1,0 +1,1 @@
+{"chunks_per_split":{"test":4,"train":24,"val":4},"files_found":12,"documents_duplicate":2,"mean_chunk_words":147,"_wandb":{"runtime":1},"_runtime":1,"_step":0,"_timestamp":1.7946009076315556e+09,"chunks_duplicate":0,"documents_rejected":2,"documents_parsed":10,"documents_kept":8,"chunks":32,"docs_per_split":{"test":1,"train":6,"val":1}}

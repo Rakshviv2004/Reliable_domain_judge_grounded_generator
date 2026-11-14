@@ -1,23 +1,11 @@
 
-.PHONY: install test lint format typecheck clean ingest
+.PHONY: sample validate repro
 
-install:
-	pip install -r requirements-dev.txt
+sample:
+	python scripts/make_sample_corpus.py
 
-test:
-	pytest tests/ -v
+validate:
+	python scripts/validate_corpus.py
 
-lint:
-	ruff check .
-
-format:
-	ruff format .
-
-typecheck:
-	mypy ingestion
-
-ingest:
-	python scripts/ingest_corpus.py
-
-clean:
-	find . -type d -name __pycache__ -exec rm -rf {} +
+repro:
+	dvc repro

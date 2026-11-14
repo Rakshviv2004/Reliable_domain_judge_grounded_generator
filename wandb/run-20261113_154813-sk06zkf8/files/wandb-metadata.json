@@ -1,0 +1,31 @@
+{
+  "os":  "Linux-6.8.0-1070-azure-x86_64-with-glibc2.39",
+  "python":  "CPython 3.11.18",
+  "startedAt":  "2026-11-13T15:48:13.186723Z",
+  "program":  "/workspaces/Reliable_domain_judge_grounded_generator/scripts/wandb_smoke.py",
+  "codePath":  "scripts/wandb_smoke.py",
+  "codePathLocal":  "scripts/wandb_smoke.py",
+  "git":  {
+    "remote":  "https://github.com/Rakshviv2004/Reliable_domain_judge_grounded_generator",
+    "commit":  "48761526ff4209d6da28f185fa2effa097e712cb"
+  },
+  "email":  "raksha.24bce11472@vitbhopal.ac.in",
+  "root":  "/workspaces/Reliable_domain_judge_grounded_generator",
+  "host":  "codespaces-07a3b7",
+  "executable":  "/workspaces/Reliable_domain_judge_grounded_generator/.venv/bin/python",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "disk":  {
+    "/":  {
+      "total":  "33636024320",
+      "used":  "14043045888"
+    }
+  },
+  "memory":  {
+    "total":  "8328060928"
+  },
+  "cpu":  {
+    "model":  "AMD EPYC 7763 64-Core Processor"
+  },
+  "writerId":  "01a1d598-570c-7634-81de-40500728a2a3"
+}

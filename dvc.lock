@@ -5,8 +5,8 @@ stages:
     deps:
     - path: configs/ingestion.yaml
       hash: md5
-      md5: 3749e2a46080206e0002fcd6a0511ea4
-      size: 351
+      md5: 8c24f6a7efd354df7f372d0f3426638d
+      size: 438
     - path: configs/sources.yaml
       hash: md5
       md5: 85d0599d42f953cb4d82fa6b2f089882
@@ -18,9 +18,9 @@ stages:
       nfiles: 13
     - path: ingestion
       hash: md5
-      md5: 5bc5e4d2eac54f91407b5e613a30baca.dir
-      size: 48344
-      nfiles: 22
+      md5: 0dff3200fd69051e42124ba079529d95.dir
+      size: 80689
+      nfiles: 31
     - path: scripts/ingest_corpus.py
       hash: md5
       md5: 430a1bc964d8cb6cd4ec0c136b8076d3

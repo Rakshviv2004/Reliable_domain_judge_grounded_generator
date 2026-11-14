@@ -1,0 +1,8 @@
+raw_dir: data/raw
+processed_dir: data/processed
+sources_file: configs/sources.yaml
+# Verify each real source's license terms. NC/SA licenses may restrict commercial use.
+allowed_licenses: [public-domain, cc-by-4.0, cc-by-sa-4.0, cc-by-nc-sa-3.0-igo, ogl-uk-3.0]
+chunk: { target_words: 250, overlap_words: 40 }
+dedup: { near_dup_threshold: 0.85, shingle_size: 5, num_perm: 128 }
+split: { train: 70, val: 10, test: 10, gold: 10, seed: v1 }

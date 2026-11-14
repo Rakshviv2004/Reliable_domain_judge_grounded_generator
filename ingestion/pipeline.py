@@ -3,7 +3,6 @@ from __future__ import annotations
 import json
 import logging
 from collections import Counter
-from collections.abc import Sequence
 from pathlib import Path
 from typing import Any
 
@@ -26,9 +25,10 @@ def load_sources(path: Path) -> dict[str, dict[str, Any]]:
     return {s["file"]: s for s in data.get("sources", [])}
 
 
-def _write_jsonl(path: Path, rows: Sequence[BaseModel]) -> None:
+def _write_jsonl(path: Path, rows: list[Any]) -> None:
+    model_rows: list[BaseModel] = rows
     with path.open("w", encoding="utf-8", newline="\n") as f:
-        for row in rows:
+        for row in model_rows:
             f.write(row.model_dump_json() + "\n")
 
 
